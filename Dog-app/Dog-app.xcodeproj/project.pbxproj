@@ -14,6 +14,7 @@
 		AC161546260E8B86001B4766 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC161544260E8B86001B4766 /* LaunchScreen.storyboard */; };
 		AC161551260E8B86001B4766 /* Dog_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC161550260E8B86001B4766 /* Dog_appTests.swift */; };
 		AC16155C260E8B86001B4766 /* Dog_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC16155B260E8B86001B4766 /* Dog_appUITests.swift */; };
+		AC161574260E99CE001B4766 /* Breed.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC161573260E99CE001B4766 /* Breed.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		AC161557260E8B86001B4766 /* Dog-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dog-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC16155B260E8B86001B4766 /* Dog_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog_appUITests.swift; sourceTree = "<group>"; };
 		AC16155D260E8B86001B4766 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC161573260E99CE001B4766 /* Breed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Breed.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		AC161538260E8B83001B4766 /* Dog-app */ = {
 			isa = PBXGroup;
 			children = (
+				AC161572260E9989001B4766 /* Models */,
 				AC161539260E8B83001B4766 /* AppDelegate.swift */,
 				AC16153B260E8B83001B4766 /* SceneDelegate.swift */,
 				AC16153D260E8B83001B4766 /* ViewController.swift */,
@@ -123,6 +126,14 @@
 				AC16155D260E8B86001B4766 /* Info.plist */,
 			);
 			path = "Dog-appUITests";
+			sourceTree = "<group>";
+		};
+		AC161572260E9989001B4766 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AC161573260E99CE001B4766 /* Breed.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC161574260E99CE001B4766 /* Breed.swift in Sources */,
 				AC16153E260E8B83001B4766 /* ViewController.swift in Sources */,
 				AC16153A260E8B83001B4766 /* AppDelegate.swift in Sources */,
 				AC16153C260E8B83001B4766 /* SceneDelegate.swift in Sources */,
