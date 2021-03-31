@@ -17,6 +17,14 @@
 		AC161574260E99CE001B4766 /* Breed.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC161573260E99CE001B4766 /* Breed.swift */; };
 		AC603912261230CF00ABD292 /* FindViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC603911261230CF00ABD292 /* FindViewModel.swift */; };
 		AC60391A261244B400ABD292 /* FindDogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC603919261244B400ABD292 /* FindDogView.swift */; };
+		AC8B80352613C0A000C01521 /* AppointmentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8B80342613C0A000C01521 /* AppointmentsViewController.swift */; };
+		AC8B803A2613C0B000C01521 /* AppointmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8B80392613C0B000C01521 /* AppointmentView.swift */; };
+		AC8B803F2613C18C00C01521 /* AppointmentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8B803E2613C18C00C01521 /* AppointmentTableViewCell.swift */; };
+		ACC9669A2613CE07002EE6A9 /* AppointmentsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC966992613CE07002EE6A9 /* AppointmentsViewModel.swift */; };
+		ACC966A02613D30F002EE6A9 /* Test_FindDogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC9669F2613D30F002EE6A9 /* Test_FindDogViewController.swift */; };
+		ACC966A82613E675002EE6A9 /* Test_FindDogViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC966A72613E675002EE6A9 /* Test_FindDogViewModel.swift */; };
+		ACC966AE2613EB70002EE6A9 /* Test_DogDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC966AD2613EB70002EE6A9 /* Test_DogDetailsViewModel.swift */; };
+		ACC966B62614E642002EE6A9 /* Test_DogDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC966B52614E642002EE6A9 /* Test_DogDetailsViewController.swift */; };
 		ACE43F982612576000B29301 /* ViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE43F972612576000B29301 /* ViewState.swift */; };
 		ACE43FA02612624000B29301 /* FindDogTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE43F9F2612624000B29301 /* FindDogTableViewCell.swift */; };
 		ACE43FA826128D1000B29301 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE43FA726128D1000B29301 /* MainTabBarViewController.swift */; };
@@ -62,6 +70,14 @@
 		AC161573260E99CE001B4766 /* Breed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Breed.swift; sourceTree = "<group>"; };
 		AC603911261230CF00ABD292 /* FindViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindViewModel.swift; sourceTree = "<group>"; };
 		AC603919261244B400ABD292 /* FindDogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindDogView.swift; sourceTree = "<group>"; };
+		AC8B80342613C0A000C01521 /* AppointmentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentsViewController.swift; sourceTree = "<group>"; };
+		AC8B80392613C0B000C01521 /* AppointmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentView.swift; sourceTree = "<group>"; };
+		AC8B803E2613C18C00C01521 /* AppointmentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentTableViewCell.swift; sourceTree = "<group>"; };
+		ACC966992613CE07002EE6A9 /* AppointmentsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentsViewModel.swift; sourceTree = "<group>"; };
+		ACC9669F2613D30F002EE6A9 /* Test_FindDogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test_FindDogViewController.swift; sourceTree = "<group>"; };
+		ACC966A72613E675002EE6A9 /* Test_FindDogViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test_FindDogViewModel.swift; sourceTree = "<group>"; };
+		ACC966AD2613EB70002EE6A9 /* Test_DogDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test_DogDetailsViewModel.swift; sourceTree = "<group>"; };
+		ACC966B52614E642002EE6A9 /* Test_DogDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test_DogDetailsViewController.swift; sourceTree = "<group>"; };
 		ACE43F972612576000B29301 /* ViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewState.swift; sourceTree = "<group>"; };
 		ACE43F9F2612624000B29301 /* FindDogTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindDogTableViewCell.swift; sourceTree = "<group>"; };
 		ACE43FA726128D1000B29301 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
@@ -121,6 +137,7 @@
 		AC161538260E8B83001B4766 /* Dog-app */ = {
 			isa = PBXGroup;
 			children = (
+				AC8B80332613C06D00C01521 /* Appointments */,
 				ACE4401026138D0A00B29301 /* Extensions */,
 				ACE43FAC2612D0C600B29301 /* DogDetails */,
 				ACE43F962612574600B29301 /* Components */,
@@ -140,6 +157,8 @@
 		AC16154F260E8B86001B4766 /* Dog-appTests */ = {
 			isa = PBXGroup;
 			children = (
+				ACC966AC2613EB59002EE6A9 /* DogDetails */,
+				ACC9669E2613D2B6002EE6A9 /* Find */,
 				AC161550260E8B86001B4766 /* Dog_appTests.swift */,
 				AC161552260E8B86001B4766 /* Info.plist */,
 			);
@@ -173,6 +192,35 @@
 				ACE43F9F2612624000B29301 /* FindDogTableViewCell.swift */,
 			);
 			path = Find;
+			sourceTree = "<group>";
+		};
+		AC8B80332613C06D00C01521 /* Appointments */ = {
+			isa = PBXGroup;
+			children = (
+				AC8B80342613C0A000C01521 /* AppointmentsViewController.swift */,
+				AC8B80392613C0B000C01521 /* AppointmentView.swift */,
+				AC8B803E2613C18C00C01521 /* AppointmentTableViewCell.swift */,
+				ACC966992613CE07002EE6A9 /* AppointmentsViewModel.swift */,
+			);
+			path = Appointments;
+			sourceTree = "<group>";
+		};
+		ACC9669E2613D2B6002EE6A9 /* Find */ = {
+			isa = PBXGroup;
+			children = (
+				ACC9669F2613D30F002EE6A9 /* Test_FindDogViewController.swift */,
+				ACC966A72613E675002EE6A9 /* Test_FindDogViewModel.swift */,
+			);
+			path = Find;
+			sourceTree = "<group>";
+		};
+		ACC966AC2613EB59002EE6A9 /* DogDetails */ = {
+			isa = PBXGroup;
+			children = (
+				ACC966AD2613EB70002EE6A9 /* Test_DogDetailsViewModel.swift */,
+				ACC966B52614E642002EE6A9 /* Test_DogDetailsViewController.swift */,
+			);
+			path = DogDetails;
 			sourceTree = "<group>";
 		};
 		ACE43F962612574600B29301 /* Components */ = {
@@ -335,14 +383,18 @@
 				ACE43F982612576000B29301 /* ViewState.swift in Sources */,
 				ACE440172613938B00B29301 /* BreedImage.swift in Sources */,
 				AC161574260E99CE001B4766 /* Breed.swift in Sources */,
+				ACC9669A2613CE07002EE6A9 /* AppointmentsViewModel.swift in Sources */,
 				ACE44002261377E600B29301 /* DogDetailsViewController.swift in Sources */,
 				ACE43FA826128D1000B29301 /* MainTabBarViewController.swift in Sources */,
 				AC16153E260E8B83001B4766 /* FindDogViewController.swift in Sources */,
+				AC8B80352613C0A000C01521 /* AppointmentsViewController.swift in Sources */,
 				ACE43FA02612624000B29301 /* FindDogTableViewCell.swift in Sources */,
 				ACE4401226138D1D00B29301 /* UIImageView+Extensions.swift in Sources */,
+				AC8B803F2613C18C00C01521 /* AppointmentTableViewCell.swift in Sources */,
 				AC16153A260E8B83001B4766 /* AppDelegate.swift in Sources */,
 				AC603912261230CF00ABD292 /* FindViewModel.swift in Sources */,
 				ACE4400C2613850600B29301 /* DogDetailsViewModel.swift in Sources */,
+				AC8B803A2613C0B000C01521 /* AppointmentView.swift in Sources */,
 				ACE44007261377FF00B29301 /* DogDetailsView.swift in Sources */,
 				AC16153C260E8B83001B4766 /* SceneDelegate.swift in Sources */,
 			);
@@ -352,7 +404,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACC966AE2613EB70002EE6A9 /* Test_DogDetailsViewModel.swift in Sources */,
+				ACC966A02613D30F002EE6A9 /* Test_FindDogViewController.swift in Sources */,
+				ACC966A82613E675002EE6A9 /* Test_FindDogViewModel.swift in Sources */,
 				AC161551260E8B86001B4766 /* Dog_appTests.swift in Sources */,
+				ACC966B62614E642002EE6A9 /* Test_DogDetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

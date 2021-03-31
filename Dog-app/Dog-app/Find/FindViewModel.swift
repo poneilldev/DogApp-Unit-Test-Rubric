@@ -18,6 +18,12 @@ class FindDogViewModel {
     var viewState = CurrentValueSubject<ViewState<BreedProtocol>, Never>(.loading)
     var cancellables = Set<AnyCancellable>()
     
+    init() {}
+    
+    init(breeds: [BreedProtocol]) {
+        self.allBreeds.value = breeds
+    }
+    
     func getBreed(at index: IndexPath) -> BreedProtocol? {
         guard let breeds = allBreeds.value, !breeds.isEmpty else { return nil }
         guard index.row < breeds.count && index.row >= 0 else { return nil }

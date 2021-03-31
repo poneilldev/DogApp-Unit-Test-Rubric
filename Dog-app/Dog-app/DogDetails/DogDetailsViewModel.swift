@@ -26,12 +26,12 @@ class DogDetailsViewModel {
     }
     
     func getSubBreed(at indexPath: IndexPath) -> BreedProtocol? {
-        guard indexPath.row < subBreeds.count else { return nil }
+        guard indexPath.row < subBreeds.count, indexPath.row >= 0 else { return nil }
         return subBreeds[indexPath.row]
     }
     
     func loadRandomBreedImage() {
-        let url = URL(string: "https://dog.ceo/api/breed/\(breed.name)/images/random")!
+        guard let url = URL(string: "https://dog.ceo/api/breed/\(breed.name)/images/random") else { return }
         viewState.send(.loading)
         URLSession.shared.dataTaskPublisher(for: url)
             .map { $0.data }

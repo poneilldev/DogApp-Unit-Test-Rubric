@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="20D64" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <entity name="Appointments" representedClassName="Appointments" syncable="YES" codeGenerationType="class">
+    <entity name="Appointment" representedClassName="Appointment" syncable="YES" codeGenerationType="class">
         <attribute name="breed" optional="YES" attributeType="String"/>
-        <attribute name="timeSlot" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="timeslot" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
     </entity>
     <elements>
-        <element name="Appointments" positionX="-54" positionY="-9" width="128" height="59"/>
+        <element name="Appointment" positionX="-63" positionY="-18" width="128" height="59"/>
     </elements>
 </model>

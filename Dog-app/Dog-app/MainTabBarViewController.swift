@@ -49,7 +49,7 @@ enum TabItem {
         case .find:
             vc = UINavigationController(rootViewController: FindDogViewController(viewModel: FindDogViewModel()))
         case .appointments:
-            vc = UINavigationController(rootViewController: UIViewController())
+            vc = UINavigationController(rootViewController: AppointmentsViewController(viewModel: AppointmentsViewModel()))
         }
         return vc
     }

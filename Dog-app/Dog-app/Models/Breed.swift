@@ -51,4 +51,9 @@ struct Test_Breed: BreedProtocol {
         self.name = name
         self.subBreeds = subBreeds
     }
+    
+    init() {
+        name = "Hound"
+        subBreeds = []
+    }
 }

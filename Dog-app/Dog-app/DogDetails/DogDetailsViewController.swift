@@ -30,11 +30,12 @@ class DogDetailsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        bind()
+        setupUI()
     }
 
     private func setupUI() {
         title = viewModel.breed.name
+        bind()
     }
     
     private func bind() {
