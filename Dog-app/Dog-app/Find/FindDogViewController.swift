@@ -33,9 +33,8 @@ class FindDogViewController: UIViewController {
     }
 
     private func setupUI() {
-        viewModel.getAllBreeds()
         navigationController?.navigationBar.prefersLargeTitles = true
-        navigationItem.title = TabItem.find.tabTitle
+        title = TabItem.find.tabTitle
     }
     
     private func bind() {

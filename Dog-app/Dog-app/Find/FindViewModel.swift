@@ -18,7 +18,9 @@ class FindDogViewModel {
     var viewState = CurrentValueSubject<ViewState<BreedProtocol>, Never>(.loading)
     var cancellables = Set<AnyCancellable>()
     
-    init() {}
+    init() {
+        getAllBreeds()
+    }
     
     init(breeds: [BreedProtocol]) {
         self.allBreeds.value = breeds
